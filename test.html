@@ -2,9 +2,14 @@
   <head>
     <title>Test on iPhone/Safari</title>
   </head>
+  <script type="text/javascript">
+    function clicked() {
+      alert("Clicked!");
+    }
+  </script>
   <body>
     <form>
-      <select>
+      <select onclick="clicked();">
         <option value="1">A 型</option>
         <option value="2">B 型</option>
         <option value="3">O 型</option>
